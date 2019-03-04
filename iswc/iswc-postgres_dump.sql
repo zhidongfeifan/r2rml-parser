@@ -14,7 +14,7 @@ CREATE TABLE conferences (
   URI varchar(200) default NULL,
   Date varchar(50) default NULL,
   Location varchar(50) default NULL,
-  Datum timestamp default NULL,
+  Datum timestamp default CURRENT_TIMESTAMP,
   PRIMARY KEY  (ConfID)
 ) ;
 
